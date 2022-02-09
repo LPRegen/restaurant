@@ -1,0 +1,58 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Krona One', sans-serif;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10%;
+  height: inherit;
+  cursor: default;
+}
+
+#title {
+  color: var(--text);
+  letter-spacing: 2px;
+  font-size: min(70px, 12vw);
+  line-height: 1.5;
+}
+
+span:hover {
+  color: #843113;
+  text-shadow: 0 0 30px;
+}
+
+#description {
+  color: var(--text-alt);
+  font-size: min(18px, 8vw);
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+#make-order {
+  padding: 2%;
+  border-radius: var(--radius);
+  border-style: none;
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: #843113;
+  color: var(--text);
+  margin-top: 4vh;
+}
+
+#make-order:hover {
+  background-color: #843113;
+  color: var(--text);
+}
+
+#home-img {
+  height: 40vh;
+  object-fit: contain;
+  border-radius: 50vh;
+}
