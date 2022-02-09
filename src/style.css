@@ -63,17 +63,6 @@ header {
   color: var(--text);
 }
 
-#content {
-  display: flex;
-  gap: min(20%, 10%);
-}
-
-#home-img {
-  height: 40vh;
-  object-fit: contain;
-  border-radius: 50vh;
-}
-
 footer {
   display: flex;
   justify-content: center;

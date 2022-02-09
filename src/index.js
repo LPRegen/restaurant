@@ -3,7 +3,7 @@ import './style.css'; //! Import CSS file.
 import Logo from './images/logo.png';
 import Github from './images/github.png';
 import { createHome } from './home/home.js';
-import { createMenu } from './menu/menu';
+import { createMenuItems } from './menu/menu.js';
 
 function createTabs() {
   let tabs = ['Home', 'Menu', 'Contact'];
@@ -13,8 +13,8 @@ function createTabs() {
     const li = document.createElement('li');
     li.textContent = tabs[i];
     li.classList.add('tab');
-    listedItems.push(li);
     li.addEventListener('click', () => createContent(i));
+    listedItems.push(li);
   }
 
   return listedItems;
@@ -54,11 +54,12 @@ function createHeader() {
 
 function createContent(i) {
   const content = document.querySelector('#content');
-  const createFunctions = [createHome, createMenu];
-  if (!content.firstChild) {
-    content.replaceWith(createFunctions[i]());
-  } else {
-    content.replaceWith(createFunctions[i]());
+
+  const createFunctions = [createHome, createMenuItems];
+  if (!content.firstElementChild) {
+    content.appendChild(createFunctions[i]());
+  } else if (content.firstElementChild.dataset.id != i) {
+    content.replaceChild(createFunctions[i](), content.firstElementChild);
   }
 }
 
