@@ -4,6 +4,7 @@ import HomeImg from '../images/coffee.jpg';
 
 export function createHome() {
   const content = document.querySelector('#content');
+  const container = document.createElement('div');
   const information = document.createElement('div');
   const title = document.createElement('h1');
   const spanTitle = document.createElement('span');
@@ -11,6 +12,8 @@ export function createHome() {
   const makeOrder = document.createElement('button');
   const img = document.createElement('img');
 
+  content.dataset.id = 0;
+  container.id = 'home';
   information.id = 'information';
   title.id = 'title';
   description.id = 'description';
@@ -30,7 +33,8 @@ export function createHome() {
   information.appendChild(title);
   information.appendChild(description);
   information.appendChild(makeOrder);
-  content.appendChild(information);
-  content.appendChild(img);
-  return content;
+  container.appendChild(information);
+  container.appendChild(img);
+  content.appendChild(container);
+  return container;
 }
