@@ -1,36 +1,73 @@
+import { divide } from 'lodash';
 import './menu.css';
 
-export function createMenu() {
+export function createMenuItems() {
   const content = document.querySelector('#content');
-
+  const container = document.createElement('div');
+  container.id = 'menu';
+  content.dataset.id = '1';
   const items = [
-    { title: 'wer', description: 'Lorem 123asd', price: '$20' },
-    { title: 'Expresso', description: 'fgj 1nfg3asd', price: '$20' },
-    { title: 'Expresso', description: 'Lorem 123asd', price: '$22130' },
-    { title: 'etr', description: 'Lorem123 123asd', price: '$20' },
-    { title: 'fgh', description: 'vbn 123asd', price: '$2230' },
-    { title: 'Expresso', description: 'Lorem 1fdg23asd', price: '$20' },
-    { title: ' x', description: 'uio 123asd', price: '$12320' },
-    { title: 'Expresso', description: 'Lorem 123asd', price: '$20' },
+    {
+      name: 'Expresso',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Affogato',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Americano',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Cappuccino',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Cold Brew Coffee',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Doppio',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
   ];
+  items.forEach((item) => {
+    const itemName = item.name;
+    const itemDescription = item.description;
+    const itemPrice = item.price;
 
-  let listedItems = [];
-  for (let i = 0; i < items.length; i++) {
-    let liItem = document.createElement('li');
-    let title = document.createElement('p');
-    let description = document.createElement('p');
-    let price = document.createElement('p');
+    const cardItem = document.createElement('div');
+    const name = document.createElement('h3');
+    const description = document.createElement('p');
+    const priceOrder = document.createElement('div');
+    const price = document.createElement('p');
+    const order = document.createElement('button');
 
-    title.textContent = items[i].title;
-    description.textContent = items[i].description;
-    price.textContent = items[i].price;
+    cardItem.classList.add('item');
+    name.classList.add('name');
+    description.classList.add('description');
+    priceOrder.classList.add('price-order');
+    price.classList.add('price');
+    order.classList.add('order');
 
-    liItem.appendChild(title);
-    liItem.appendChild(description);
-    liItem.appendChild(price);
+    name.textContent = itemName;
+    description.textContent = itemDescription;
+    price.textContent = itemPrice;
+    order.textContent = 'Order';
 
-    listedItems.push(liItem);
-  }
-  console.log(listedItems);
-  return listedItems;
+    priceOrder.append(price, order);
+    cardItem.append(name, description, priceOrder);
+    container.append(cardItem);
+  });
+
+  content.appendChild(container);
+
+  return container;
 }
