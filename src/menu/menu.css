@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   gap: 3vh;
   width: fit-content;
+  margin: 2vh 0;
 }
 
 #menu .item {
@@ -43,6 +44,8 @@
 
 #menu .price {
   font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 2px;
   color: var(--text);
 }
 
@@ -51,6 +54,8 @@
   border: none;
   padding: 10px 20px;
   font-size: 1.15em;
+  font-weight: 900;
+  letter-spacing: 1px;
   background-color: #843113;
   color: var(--text);
   cursor: pointer;
