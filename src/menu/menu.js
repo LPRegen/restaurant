@@ -37,6 +37,16 @@ export function createMenuItems() {
       description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
       price: '$3',
     },
+    {
+      name: 'Red Eye',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
+    {
+      name: 'Ristretto',
+      description: 'Lorem ipsum dolor sit amet. Lorem, ipsum dolor.',
+      price: '$3',
+    },
   ];
   items.forEach((item) => {
     const itemName = item.name;
