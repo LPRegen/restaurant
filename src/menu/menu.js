@@ -61,6 +61,7 @@ export function createMenuItems() {
     description.textContent = itemDescription;
     price.textContent = itemPrice;
     order.textContent = 'Order';
+    order.addEventListener('click', () => tabs.childNodes[2].click());
 
     priceOrder.append(price, order);
     cardItem.append(name, description, priceOrder);
