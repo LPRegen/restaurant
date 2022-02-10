@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #292424;
+  background-color: var(--secondaryBgColor);
   height: 20vh;
   width: 300px;
   border-radius: var(--radius);
@@ -56,7 +56,7 @@
   font-size: 1.15em;
   font-weight: 900;
   letter-spacing: 1px;
-  background-color: #843113;
+  background-color: var(--accent);
   color: var(--text);
   cursor: pointer;
 }

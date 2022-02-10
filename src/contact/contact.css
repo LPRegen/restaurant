@@ -10,7 +10,7 @@
   margin: 5vw;
   gap: 5%;
   display: flex;
-  background-color: #292424;
+  background-color: var(--secondaryBgColor);
   align-items: center;
   color: var(--text);
   border-radius: var(--radius);
@@ -34,10 +34,6 @@
   width: 300px;
   object-fit: contain;
   border-radius: var(--radius);
-}
-
-.material-icons {
-  color: var(--text);
 }
 
 #contact #address,

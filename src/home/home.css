@@ -20,7 +20,7 @@
 }
 
 span:hover {
-  color: #843113;
+  color: var(--accent);
   text-shadow: 0 0 30px;
 }
 
@@ -39,13 +39,13 @@ span:hover {
   font-weight: 800;
   letter-spacing: 1px;
   cursor: pointer;
-  background-color: #843113;
+  background-color: var(--accent);
   color: var(--text);
   margin-top: 4vh;
 }
 
 #make-order:hover {
-  background-color: #843113;
+  background-color: var(--accent);
   color: var(--text);
 }
 
