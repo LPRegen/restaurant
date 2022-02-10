@@ -1,0 +1,52 @@
+#content {
+  display: flex;
+  gap: 20%;
+}
+
+#contact {
+  width: 100vw;
+  height: 100%;
+  padding: 5vh 5vw;
+  margin: 5vw;
+  gap: 5%;
+  display: flex;
+  background-color: #292424;
+  align-items: center;
+  color: var(--text);
+  border-radius: var(--radius);
+}
+
+#contact #about-us {
+  line-height: 2em;
+  color: var(--text-alt);
+}
+
+#contact #information {
+  gap: 2vh;
+  height: min-content;
+}
+
+#contact #title {
+  font-size: 26px;
+}
+
+#contact #img-about {
+  width: 300px;
+  object-fit: contain;
+  border-radius: var(--radius);
+}
+
+.material-icons {
+  color: var(--text);
+}
+
+#contact #address,
+#phone,
+#email {
+  white-space: normal;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-alt);
+}
