@@ -1,6 +1,6 @@
 // import { create } from 'lodash';
 import './home.css';
-import HomeImg from '../images/coffee.jpg';
+import HomeImgResized from '../images/coffee-resized.jpg';
 
 export function createHome() {
   const content = document.querySelector('#content');
@@ -20,7 +20,7 @@ export function createHome() {
   makeOrder.id = 'make-order';
   makeOrder.classList.add('btn');
   img.id = 'home-img';
-  img.src = HomeImg;
+  img.src = HomeImgResized;
   img.alt = 'Image of two coffee cups.';
 
   title.textContent = 'Hello ';

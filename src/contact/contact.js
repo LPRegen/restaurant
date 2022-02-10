@@ -1,5 +1,5 @@
 import './contact.css';
-import ImgAbout from '../images/lisa-fotios.jpg';
+import ImgAbout from '../images/lisa-fotios-resized.jpg';
 
 export function createContact() {
   const container = document.querySelector('#content');
