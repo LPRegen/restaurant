@@ -28,6 +28,7 @@ export function createHome() {
   description.textContent = `Start your day with us! Lorem ipsum dolor sit amet consectetur,
   adipisicing elit. Cupiditate, officia. Lorem ipsum dolor sit amet.`;
   makeOrder.textContent = 'Make Your Order';
+  makeOrder.addEventListener('click', () => tabs.childNodes[1].click());
 
   title.appendChild(spanTitle);
   information.appendChild(title);
@@ -36,5 +37,6 @@ export function createHome() {
   container.appendChild(information);
   container.appendChild(img);
   content.appendChild(container);
+
   return container;
 }
