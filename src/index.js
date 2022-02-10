@@ -1,9 +1,9 @@
-import _, { create } from 'lodash'; //! Import lodash library.
-import './style.css'; //! Import CSS file.
+import './style.css';
 import Logo from './images/logo.png';
 import Github from './images/github.png';
 import { createHome } from './home/home.js';
 import { createMenuItems } from './menu/menu.js';
+import { createContact } from './contact/contact';
 
 function createTabs() {
   let tabs = ['Home', 'Menu', 'Contact'];
@@ -44,6 +44,7 @@ function createHeader() {
 
   createTabs().forEach((tab) => ul.appendChild(tab));
   ul.addEventListener('click', selectTab);
+  img.addEventListener('click', () => ul.childNodes[0].click());
   ul.childNodes[0].click();
 
   header.appendChild(img);
@@ -55,7 +56,7 @@ function createHeader() {
 function createContent(i) {
   const content = document.querySelector('#content');
 
-  const createFunctions = [createHome, createMenuItems];
+  const createFunctions = [createHome, createMenuItems, createContact];
   if (!content.firstElementChild) {
     content.appendChild(createFunctions[i]());
   } else if (content.firstElementChild.dataset.id != i) {
