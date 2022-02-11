@@ -21,9 +21,9 @@
     <br />
     <a href="https://lpregen.github.io/tic-tac-toe/">View Demo</a>
     ·
-    <a href="https://github.com/LPRegen/tic-tac-toe/issues">Report Bug</a>
+    <a href="https://github.com/LPRegen/restaurant/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LPRegen/tic-tac-toe/issues">Request Feature</a>
+    <a href="https://github.com/LPRegen/restaurant/issues">Request Feature</a>
     <br />
     <br />
     <br />
@@ -52,12 +52,12 @@
 - Use Webpack and npm.
 - Internalize module design pattern.
 
-  - Use ES6 modules.
+  - ES6 modules.
   - ES6 classes.
 
   <br />
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/LPRegen/tic-tac-toe/blob/main/images/tic-tac-toe.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/LPRegen/restaurant/blob/features/image/restaurant-home.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
