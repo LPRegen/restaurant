@@ -11,7 +11,7 @@
 
 <br />
 <div align="center">
-<h1 align="center">Tic Tac Toe</h3>
+<h1 align="center">Hello Coffee!</h3>
 
   <p align="center">
       <br />
