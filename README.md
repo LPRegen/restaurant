@@ -1,71 +1,105 @@
-# restaurant
+<div id="top" align="center">
 
-Restaurant page for The Odin Project.
+[![Top][top-shield]][top-url]
+![Javascript][js-shield]
+![Webpac][webpack-shield]
+![HTML5][html-shield]
+![CSS3][css-shield]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-icons8
-image of coffee cup.
+</div>
 
-## createTabs()
+<br />
+<div align="center">
+<h1 align="center">Tic Tac Toe</h3>
 
-Will create three tabs with the content.
+  <p align="center">
+      <br />
+    This is part of <a href="#">The Odin Project</a>'s curriculum
+    <br />
+    <br />
+    <br />
+    <a href="https://lpregen.github.io/tic-tac-toe/">View Demo</a>
+    ·
+    <a href="https://github.com/LPRegen/tic-tac-toe/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/LPRegen/tic-tac-toe/issues">Request Feature</a>
+    <br />
+    <br />
+    <br />
 
-- create li element
-- tabs arr with Home, Menu, Contact
-- listedItems array, empty
-- iterate tabs arr
+  </p>
+</div>
 
-  - set textContent to tabs[i]
-  - add class list tab
-  - push item to listedItems
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-of-the-project">Objective of the project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+    <br />
 
-- **return listedItems**
+## Objective of the project
 
-## createHeader
+- Use Webpack and npm.
+- Internalize module design pattern.
 
-- create the header element.
-- create img element for the logo.
-- create ul container element for tabs.
+  - Use ES6 modules.
+  - ES6 classes.
 
-- add id for logo
-- add id for tabs.
-- add alt att logo
+  <br />
 
-- createTabs().forEach((tab) => {
-  ul.appendChild(tab);
-  })
+[![Product Name Screen Shot][product-screenshot]](https://github.com/LPRegen/tic-tac-toe/blob/main/images/tic-tac-toe.png)
 
-- header.appendChild(img);
-- header.appendChild(ul);
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**return header**
+### Built With
 
-## createFooter
+- Javascript
+- [Webpack](https://webpack.js.org/)
+- [npm](https://www.npmjs.com/)
+- HTML
+- CSS
 
-- create footer element
-- create anchor element
-- create img element
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- anchor
+## Features
 
-  - add id
-  - add href
-  - add target
-  - add rel ?
-  - add textContent
+- [ ] Responsive design.
+- [ ] CSS Animations.
 
-- img
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-  - add src
-  - add alt
+## Contact
 
-- append elements.
-- append footer
+Manuel Escribano - [LinkedIn](https://www.linkedin.com/in/manuel-escribano-639199151/)
 
-toggleActiveClass
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- if e.target !== this
-  - let selectedTab = e.target.textContext;
+## Acknowledgments
 
-## createContent
+- [Odin Community](https://www.theodinproject.com/)
+- [Icons8](https://icons8.com/)
+- [Img Shields](https://shields.io/)
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://pexels.com/)
 
-Depending on which tab is selected call corresponding function.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/manuel-escribano-639199151/
+[product-screenshot]: images/tic-tac-toe.png
+[top-shield]: https://img.shields.io/badge/TOP-The%20Odin%20Project-orange?style=for-the-badge
+[top-url]: https://www.theodinproject.com/
+[js-shield]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[html-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[css-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white?
+[webpack-shield]: https://img.shields.io/badge/Webpack-blue?style=for-the-badge&logo=appveyor
