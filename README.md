@@ -15,7 +15,7 @@
 
   <p align="center">
       <br />
-    This is part of <a href="#">The Odin Project</a>'s curriculum
+    This is part of <a href="https://www.theodinproject.com/">The Odin Project</a>'s curriculum
     <br />
     <br />
     <br />
@@ -96,7 +96,7 @@ Manuel Escribano - [LinkedIn](https://www.linkedin.com/in/manuel-escribano-63919
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/manuel-escribano-639199151/
-[product-screenshot]: images/tic-tac-toe.png
+[product-screenshot]: ./image/restaurant-home.png
 [top-shield]: https://img.shields.io/badge/TOP-The%20Odin%20Project-orange?style=for-the-badge
 [top-url]: https://www.theodinproject.com/
 [js-shield]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
