@@ -15,7 +15,7 @@
 
   <p align="center">
       <br />
-    This is part of <a href="https://www.theodinproject.com/">The Odin Project</a>'s curriculum
+    The objective of this project was to use for the first time a module bundler like Webpack, create a Single Page Application and start to utilize ES6 modules and classes.
     <br />
     <br />
     <br />
@@ -80,7 +80,7 @@
 
 ## Contact
 
-Manuel Escribano - [LinkedIn](https://www.linkedin.com/in/manuel-escribano-639199151/)
+Manuel Escribano - [LinkedIn](https://www.linkedin.com/in/manuel-escribano-lpregen/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ Manuel Escribano - [LinkedIn](https://www.linkedin.com/in/manuel-escribano-63919
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/manuel-escribano-639199151/
+[linkedin-url]: https://www.linkedin.com/in/manuel-escribano-lpregen/
 [product-screenshot]: ./image/restaurant-home.png
 [top-shield]: https://img.shields.io/badge/TOP-The%20Odin%20Project-orange?style=for-the-badge
 [top-url]: https://www.theodinproject.com/
